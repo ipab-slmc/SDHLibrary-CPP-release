@@ -1,0 +1,12 @@
+Source: ros-melodic-sdhlibrary-cpp
+Section: misc
+Priority: extra
+Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-sdhlibrary-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: This is SDHLibrary-CPP, the C++ library to access an SDH (SCHUNK Dexterous Hand)
