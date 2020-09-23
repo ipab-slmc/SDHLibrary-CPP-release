@@ -1,0 +1,12 @@
+Source: ros-noetic-sdhlibrary-cpp
+Section: misc
+Priority: optional
+Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sdhlibrary-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: This is SDHLibrary-CPP, the C++ library to access an SDH (SCHUNK Dexterous Hand)
